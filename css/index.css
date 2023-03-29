@@ -202,6 +202,45 @@ nav.sticky .logo a{
     flex: 0 1 310px; /*  No stretching: */
     margin: 5px;
 }
+
+
+ /* redirect */
+ .redirect-holder{
+    width: 100%;
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.new-redirect{
+  flex: 1 1 310px; /*  Stretching: */
+    flex: 0 1 310px; /*  No stretching: */
+    margin: 5px;
+}
+.link-button{
+    background: #ffffff;
+    font-size: 26px;
+    outline: none;
+    border: none;
+}
+.link-button a{
+   text-decoration: none;
+    animation: myredirect 5s infinite;
+    font-weight: bold;
+}
+
+
+@keyframes myredirect {
+  0%   {color: #0066a0;}
+  25%  {color: #0097ed;}
+  75%  {color: #ff9a60;}
+  100% {color: #ff6a13;}
+}
+
+
+
+
+
 .journey-container{
  flex: 1 1 510px; /*  Stretching: */
     flex: 0 1 510px; /*  No stretching: */
